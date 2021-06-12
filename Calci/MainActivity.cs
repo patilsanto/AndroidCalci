@@ -31,7 +31,7 @@ namespace Calci
             Button button = (Button)v;
             if ("0123456789.".Contains(button.Text))
                 AddDigitOrDecimalPoint(button.Text);
-            else if ("÷*+-".Contains(button.Text))
+            else if ("/*+-".Contains(button.Text))
                 AddOperator(button.Text);
             else if ("=" == button.Text)
                 Calculate();
