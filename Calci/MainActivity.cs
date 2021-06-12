@@ -85,10 +85,10 @@ namespace Calci
 
             switch (@operator)
             {
-                case "÷":
+                case "/":
                     result = first / second;
                     break;
-                case "×":
+                case "*":
                     result = first * second;
                     break;
                 case "+":
